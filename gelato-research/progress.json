@@ -1,0 +1,29 @@
+{
+  "project": "한국 독립·수제 젤라또 100곳 검증",
+  "updated_at": "2026-07-13",
+  "target": 100,
+  "verified_count": 0,
+  "verification_rules": {
+    "must_be_currently_open": true,
+    "must_have_physical_store": true,
+    "must_be_independent_or_small_brand": true,
+    "must_have_handmade_or_in_store_production_evidence": true,
+    "exclude_franchise": true,
+    "exclude_duplicate_branches": true
+  },
+  "verified": [],
+  "candidates": [
+    {
+      "name": "바버&젤라또",
+      "area": "서울 성동구 성수동1가",
+      "status": "candidate_only",
+      "evidence": "Google Places 데이터에서 아이스크림·디저트 매장 및 2025년 전후 리뷰 확인",
+      "missing": ["현재 영업 공식 근거", "독립점 근거", "매장 직접 제조 근거", "공식 채널"],
+      "source_url": "https://maps.google.com/?cid=976181658457681095"
+    }
+  ],
+  "notes": [
+    "검증 요건을 모두 충족하기 전에는 verified에 넣지 않는다.",
+    "다음 실행에서 이 파일을 먼저 읽고 후보와 검증 결과를 누적한다."
+  ]
+}
