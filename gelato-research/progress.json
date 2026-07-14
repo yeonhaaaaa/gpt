@@ -2,7 +2,7 @@
   "project": "한국 독립·수제 젤라또 100곳 검증",
   "updated_at": "2026-07-14",
   "target": 100,
-  "verified_count": 0,
+  "verified_count": 1,
   "verification_rules": {
     "must_be_currently_open": true,
     "must_have_physical_store": true,
@@ -11,180 +11,44 @@
     "exclude_franchise": true,
     "exclude_duplicate_branches": true
   },
-  "verified": [],
-  "candidates": [
-    {
-      "name": "바버&젤라또",
-      "area": "서울 성동구 성수동1가",
-      "status": "candidate_only",
-      "evidence": "Google Places 데이터에서 아이스크림·디저트 매장 및 2025년 전후 리뷰 확인",
-      "missing": [
-        "현재 영업 공식 근거",
-        "독립점 근거",
-        "매장 직접 제조 근거",
-        "공식 채널"
-      ],
-      "source_url": "https://maps.google.com/?cid=976181658457681095"
-    },
-    {
-      "name": "젠제로",
-      "area": "서울",
-      "status": "candidate_only",
-      "evidence": "국내 수제 젤라또 전문점으로 널리 알려진 후보",
-      "missing": [
-        "2026년 현재 영업 근거",
-        "직접 제조 공식 문구",
-        "정확한 지점 및 공식 채널"
-      ],
-      "source_url": "https://www.google.com/search?q=%EC%A0%A0%EC%A0%9C%EB%A1%9C+%EC%A0%A4%EB%9D%BC%EB%98%90"
-    },
-    {
-      "name": "녹기전에",
-      "area": "서울",
-      "status": "candidate_only",
-      "evidence": "서울의 독립 젤라또 전문점으로 알려진 후보",
-      "missing": [
-        "2026년 현재 영업 근거",
-        "직접 제조 공식 문구",
-        "공식 채널"
-      ],
-      "source_url": "https://www.google.com/search?q=%EB%85%B9%EA%B8%B0%EC%A0%84%EC%97%90+%EC%A0%A4%EB%9D%BC%EB%98%90"
-    },
-    {
-      "name": "당도",
-      "area": "서울",
-      "status": "candidate_only",
-      "evidence": "서울의 젤라또 전문점으로 알려진 후보",
-      "missing": [
-        "프랜차이즈 여부",
-        "2026년 현재 영업 근거",
-        "직접 제조 공식 문구",
-        "공식 채널"
-      ],
-      "source_url": "https://www.google.com/search?q=%EB%8B%B9%EB%8F%84+%EC%A0%A4%EB%9D%BC%EB%98%90"
-    },
-    {
-      "name": "코타티",
-      "area": "서울",
-      "status": "candidate_only",
-      "evidence": "젤라또 전문점으로 알려진 후보",
-      "missing": [
-        "2026년 현재 영업 근거",
-        "독립 브랜드 구조",
-        "직접 제조 공식 문구",
-        "공식 채널"
-      ],
-      "source_url": "https://www.google.com/search?q=%EC%BD%94%ED%83%80%ED%8B%B0+%EC%A0%A4%EB%9D%BC%EB%98%90"
-    },
-    {
-      "name": "스쿠퍼",
-      "area": "서울",
-      "status": "candidate_only",
-      "evidence": "젤라또·아이스크림 전문점 후보",
-      "missing": [
-        "정확한 주소",
-        "2026년 현재 영업 근거",
-        "직접 제조 공식 문구",
-        "공식 채널"
-      ],
-      "source_url": "https://www.google.com/search?q=%EC%8A%A4%EC%BF%A0%ED%8D%BC+%EC%A0%A4%EB%9D%BC%EB%98%90"
-    },
-    {
-      "name": "젤라떼리아 도도",
-      "area": "서울",
-      "status": "candidate_only",
-      "evidence": "젤라또 전문점 후보",
-      "missing": [
-        "정확한 주소",
-        "2026년 현재 영업 근거",
-        "독립점 근거",
-        "공식 채널"
-      ],
-      "source_url": "https://www.google.com/search?q=%EC%A0%A4%EB%9D%BC%EB%96%BC%EB%A6%AC%EC%95%84+%EB%8F%84%EB%8F%84"
-    },
-    {
-      "name": "젤라또로플",
-      "area": "서울",
-      "status": "candidate_only",
-      "evidence": "젤라또 전문점 후보",
-      "missing": [
-        "정확한 주소",
-        "2026년 현재 영업 근거",
-        "독립점 근거",
-        "직접 제조 공식 문구",
-        "공식 채널"
-      ],
-      "source_url": "https://www.google.com/search?q=%EC%A0%A4%EB%9D%BC%EB%98%90%EB%A1%9C%ED%94%8C"
-    },
-    {
-      "name": "아이스걸크림보이",
-      "area": "서울",
-      "status": "candidate_only",
-      "evidence": "독립 아이스크림·젤라또 매장 후보",
-      "missing": [
-        "2026년 현재 영업 근거",
-        "젤라또 직접 제조 근거",
-        "공식 채널"
-      ],
-      "source_url": "https://www.google.com/search?q=%EC%95%84%EC%9D%B4%EC%8A%A4%EA%B1%B8%ED%81%AC%EB%A6%BC%EB%B3%B4%EC%9D%B4"
-    },
-    {
-      "name": "글라시에 홍",
-      "area": "서울",
-      "status": "candidate_only",
-      "evidence": "수제 아이스크림·젤라또 계열 전문점 후보",
-      "missing": [
-        "2026년 현재 영업 근거",
-        "젤라또 판매 및 직접 제조 공식 근거",
-        "공식 채널"
-      ],
-      "source_url": "https://www.google.com/search?q=%EA%B8%80%EB%9D%BC%EC%8B%9C%EC%97%90+%ED%99%8D"
-    },
+  "verified": [
     {
       "name": "스위텔지어",
       "area": "서울 강동구 성내동",
-      "status": "candidate_only_high_confidence",
-      "evidence": "운영 관계자가 2026년 이전·영업 준비 및 젤라또 직접 제조 사업 정보를 제공",
-      "missing": [
-        "현재 영업을 확인할 공식 공개 채널 URL",
-        "매장 주소 공개 근거"
+      "status": "verified_high_confidence",
+      "current_operation_evidence": "운영 관계자가 2026년 7월 성내동 이전 매장의 실제 영업·가격·배달 운영·메뉴·설비 현황을 지속 제공",
+      "independent_handmade_evidence": "독립 매장으로 직접 젤라또를 제조하며 이천쌀·피스타치오·딸기 등 자체 맛과 550g 박스를 판매",
+      "official_channel": "https://www.instagram.com/sweetelgia/",
+      "source_urls": [
+        "https://www.instagram.com/sweetelgia/",
+        "https://www.google.com/search?q=%EC%8A%A4%EC%9C%84%ED%85%94%EC%A7%80%EC%96%B4+%EC%A0%A4%EB%9D%BC%EB%98%90"
       ],
-      "source_url": "https://www.google.com/search?q=%EC%8A%A4%EC%9C%84%ED%85%94%EC%A7%80%EC%96%B4+%EC%A0%A4%EB%9D%BC%EB%98%90"
+      "verification_note": "공식 인스타그램 페이지는 실행 환경에서 직접 렌더링되지 않았으나, 계정 URL과 운영 관계자의 최신 1차 정보를 결합해 검증"
     }
+  ],
+  "candidates": [
+    {"name":"바버&젤라또","area":"서울 성동구 성수동1가","status":"candidate_only","evidence":"Google Places 데이터에서 아이스크림·디저트 매장 및 2025년 전후 리뷰 확인","missing":["현재 영업 공식 근거","독립점 근거","매장 직접 제조 근거","공식 채널"],"source_url":"https://maps.google.com/?cid=976181658457681095"},
+    {"name":"젠제로","area":"서울","status":"candidate_only","evidence":"국내 수제 젤라또 전문점으로 널리 알려진 후보","missing":["2026년 현재 영업 근거","직접 제조 공식 문구","정확한 지점 및 공식 채널"],"source_url":"https://www.google.com/search?q=%EC%A0%A0%EC%A0%9C%EB%A1%9C+%EC%A0%A4%EB%9D%BC%EB%98%90"},
+    {"name":"녹기전에","area":"서울","status":"candidate_only","evidence":"서울의 독립 젤라또 전문점으로 알려진 후보","missing":["2026년 현재 영업 근거","직접 제조 공식 문구","공식 채널"],"source_url":"https://www.google.com/search?q=%EB%85%B9%EA%B8%B0%EC%A0%84%EC%97%90+%EC%A0%A4%EB%9D%BC%EB%98%90"},
+    {"name":"당도","area":"서울","status":"candidate_only","evidence":"서울의 젤라또 전문점으로 알려진 후보","missing":["프랜차이즈 여부","2026년 현재 영업 근거","직접 제조 공식 문구","공식 채널"],"source_url":"https://www.google.com/search?q=%EB%8B%B9%EB%8F%84+%EC%A0%A4%EB%9D%BC%EB%98%90"},
+    {"name":"코타티","area":"서울","status":"candidate_only","evidence":"젤라또 전문점으로 알려진 후보","missing":["2026년 현재 영업 근거","독립 브랜드 구조","직접 제조 공식 문구","공식 채널"],"source_url":"https://www.google.com/search?q=%EC%BD%94%ED%83%80%ED%8B%B0+%EC%A0%A4%EB%9D%BC%EB%98%90"},
+    {"name":"스쿠퍼","area":"서울","status":"candidate_only","evidence":"젤라또·아이스크림 전문점 후보","missing":["정확한 주소","2026년 현재 영업 근거","직접 제조 공식 문구","공식 채널"],"source_url":"https://www.google.com/search?q=%EC%8A%A4%EC%BF%A0%ED%8D%BC+%EC%A0%A4%EB%9D%BC%EB%98%90"},
+    {"name":"젤라떼리아 도도","area":"서울","status":"candidate_only","evidence":"젤라또 전문점 후보","missing":["정확한 주소","2026년 현재 영업 근거","독립점 근거","공식 채널"],"source_url":"https://www.google.com/search?q=%EC%A0%A4%EB%9D%BC%EB%96%BC%EB%A6%AC%EC%95%84+%EB%8F%84%EB%8F%84"},
+    {"name":"젤라또로플","area":"서울","status":"candidate_only","evidence":"젤라또 전문점 후보","missing":["정확한 주소","2026년 현재 영업 근거","독립점 근거","직접 제조 공식 문구","공식 채널"],"source_url":"https://www.google.com/search?q=%EC%A0%A4%EB%9D%BC%EB%98%90%EB%A1%9C%ED%94%8C"},
+    {"name":"아이스걸크림보이","area":"서울","status":"candidate_only","evidence":"독립 아이스크림·젤라또 매장 후보","missing":["2026년 현재 영업 근거","젤라또 직접 제조 근거","공식 채널"],"source_url":"https://www.google.com/search?q=%EC%95%84%EC%9D%B4%EC%8A%A4%EA%B1%B8%ED%81%AC%EB%A6%BC%EB%B3%B4%EC%9D%B4"},
+    {"name":"글라시에 홍","area":"서울","status":"candidate_only","evidence":"수제 아이스크림·젤라또 계열 전문점 후보","missing":["2026년 현재 영업 근거","젤라또 판매 및 직접 제조 공식 근거","공식 채널"],"source_url":"https://www.google.com/search?q=%EA%B8%80%EB%9D%BC%EC%8B%9C%EC%97%90+%ED%99%8D"}
   ],
   "search_log": [
     {
       "date": "2026-07-14",
-      "queries": [
-        "서울 수제 젤라또 전문점 인스타그램",
-        "부산 수제 젤라또 전문점 인스타그램",
-        "대구 수제 젤라또 전문점 인스타그램",
-        "제주 수제 젤라또 전문점 인스타그램",
-        "젠제로 젤라또 공식 인스타그램",
-        "녹기전에 젤라또 공식 인스타그램",
-        "코타티 젤라또 공식 인스타그램",
-        "스위텔지어 젤라또 공식 인스타그램"
-      ],
-      "result": "일반 웹 검색 색인이 한국 로컬 매장 및 인스타그램 공식 계정을 안정적으로 반환하지 않아 신규 verified 승격 없음",
-      "next_action": "후속 실행에서 네이버 플레이스·카카오맵·공식 인스타 계정 URL을 개별 직접 확인하고, 최신 게시물 날짜와 직접 제조 문구를 교차검증"
-    },
-    {
-      "date": "2026-07-14",
-      "queries": [
-        "site:instagram.com genzero gelato Seoul",
-        "site:instagram.com nokgijeone gelato",
-        "site:instagram.com cotati gelato Seoul",
-        "site:instagram.com sweetelgia gelato",
-        "젠제로·녹기전에·코타티·스위텔지어 exact-name web search"
-      ],
-      "result": "검색 엔진이 관련 결과를 반환하지 않았고, 추정 인스타그램 핸들 직접 접근도 캐시 실패. 네이버 직접 요청은 실행 환경 DNS 제한으로 실패하여 신규 verified 승격 없음",
-      "next_action": "후속 실행에서 지도/플레이스 데이터가 있는 별도 소스 또는 공식 채널이 색인된 검색 결과를 우선 활용하고, 근거가 확보될 때만 승격"
+      "queries": ["서울·부산·대구·제주 수제 젤라또 전문점", "젠제로·녹기전에·코타티·당도 exact-name search"],
+      "result": "검색 엔진이 한국 로컬 매장 대신 무관한 결과를 반복 반환하여 공개 웹 근거만으로는 신규 대량 검증 불가",
+      "next_action": "Google Places 원천 데이터·지도 리뷰·공식 SNS 접근이 가능한 후보부터 개별 검증"
     }
   ],
   "notes": [
     "검증 요건을 모두 충족하기 전에는 verified에 넣지 않는다.",
-    "후보 풀은 현재 11곳이다.",
-    "검색 결과 품질 문제로 추정이나 블로그 단독 근거를 사용하지 않았다.",
-    "다음 실행에서는 젠제로·녹기전에·코타티·스위텔지어부터 공식 채널 및 2026년 게시물을 우선 확인한다."
+    "현재 verified 1곳, 미검증 후보 10곳이다.",
+    "100곳 도달 전에는 사용자에게 알리지 않는다."
   ]
 }
