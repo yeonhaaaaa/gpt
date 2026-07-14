@@ -1,6 +1,6 @@
 {
   "project": "한국 독립·수제 젤라또 100곳 검증",
-  "updated_at": "2026-07-14",
+  "updated_at": "2026-07-15",
   "target": 100,
   "verified_count": 1,
   "verification_rules": {
@@ -50,6 +50,12 @@
       "queries": ["젠제로·녹기전에·코타티·젤라떼리아 도도 공식 인스타그램", "site:instagram.com exact-name searches"],
       "result": "검색 결과가 없거나 무관한 학술 문서만 반환되어 신규 검증 0곳",
       "next_action": "후보별 지도 상세 데이터의 웹사이트·전화·최근 리뷰를 먼저 확보한 뒤 공식 SNS와 상호 대조"
+    },
+    {
+      "date": "2026-07-15",
+      "queries": ["site:instagram.com 젠제로·녹기전에·코타티·젤라떼리아 도도", "각 상호명 + 서울 영업 인스타그램"],
+      "result": "정확 일치 결과가 전혀 없었고 일반 검색도 무관한 학술 문서만 반환하여 신규 검증 0곳",
+      "next_action": "공개 검색엔진 대신 지도 원천 데이터 또는 공식 SNS URL을 직접 확보한 후보부터 검증"
     }
   ],
   "notes": [
