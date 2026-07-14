@@ -1,0 +1,24 @@
+{
+  "date": "2026-07-14",
+  "verified_added": 0,
+  "candidate_added": 0,
+  "queries": [
+    "젠제로 젤라또 공식 홈페이지 인스타그램",
+    "녹기전에 젤라또 공식 인스타그램",
+    "코타티 젤라또 공식 인스타그램",
+    "스위텔지어 젤라또 공식 인스타그램",
+    "site:instagram.com 젤라또 서울 수제 젤라또 매장",
+    "site:instagram.com 젤라또 부산 수제 젤라또",
+    "site:instagram.com 젤라또 대구 대전 광주 수제",
+    "한국 젤라또 맛집 수제 젤라또 전국"
+  ],
+  "direct_channel_attempts": [
+    "https://www.instagram.com/genzero_gelato/",
+    "https://www.instagram.com/nokgijeone/",
+    "https://www.instagram.com/cotati_gelato/",
+    "https://www.instagram.com/sweetelgia/"
+  ],
+  "result": "검색 엔진이 한국 로컬 젤라또 매장 대신 무관한 결과를 반환했고, 인스타그램 직접 접근은 캐시 미스로 실패했다. 공식 채널·2026년 영업·직접 제조 근거를 교차검증할 수 없어 verified 승격을 보류했다.",
+  "quality_decision": "블로그 단독 근거와 추정 핸들은 사용하지 않았으며 기존 verified_count=0을 유지한다.",
+  "next_action": "Google Places 원천 JSON과 지도 URL이 있는 후보를 우선 조사하고, 공식 홈페이지나 공식 SNS가 검색 색인되는 매장부터 검증한다."
+}
