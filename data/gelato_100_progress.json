@@ -1,0 +1,28 @@
+{
+  "project": "한국 독립·수제 젤라또 매장 100곳 조사",
+  "updated_at": "2026-07-15",
+  "status": "in_progress",
+  "verified_count": 1,
+  "criteria": {
+    "include": ["대한민국 내 실제 오프라인 매장", "현재 영업 근거 확인", "독립점 또는 소규모 독립 브랜드", "젤라또 전문점 또는 직접 제조 근거"],
+    "exclude": ["프랜차이즈", "폐업", "중복 지점", "일반 카페의 납품형 젤라또"]
+  },
+  "verified": [
+    {
+      "name": "다녹 젤라또",
+      "region": "서울 마포구 공덕동",
+      "address": "서울특별시 마포구 백범로 152 공덕파크자이 101동 14호",
+      "operating_evidence": "Google Places 데이터에서 2026-04-12 기준 business_status=OPERATIONAL, 영업시간·전화번호 확인",
+      "independent_handmade_evidence": "독립 브랜드명으로 운영되는 젤라또 전문점이며 공식 인스타그램 채널 확인. 직접 제조 여부는 최종 검수 단계에서 공식 게시물로 재확인 예정",
+      "official_channel": "https://www.instagram.com/danoc_gelato",
+      "source_urls": [
+        "https://maps.google.com/?cid=15133655750347840334",
+        "https://github.com/hyeonsang010716/seoul-hotspot-data/blob/6f3e7a6dc182fca84b48b8028be828a7a0dfd98f/data/%EB%A7%88%ED%8F%AC_%EA%B3%B5%EB%8D%95/18_ice_cream.json"
+      ],
+      "confidence": "B",
+      "notes": "현재 영업과 젤라또 전문점 여부는 확인. 수제·직접 제조 문구는 공식 채널 게시물에서 추가 확인 필요"
+    }
+  ],
+  "pending_candidates": [],
+  "notes": "최종 산출물은 100곳 모두 A/B 등급 근거가 확보된 뒤 스프레드시트로 생성한다."
+}
