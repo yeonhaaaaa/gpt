@@ -36,7 +36,8 @@
     {"name":"젤라떼리아 도도","area":"서울","status":"candidate_only","evidence":"젤라또 전문점 후보","missing":["정확한 주소","2026년 현재 영업 근거","독립점 근거","공식 채널"],"source_url":"https://www.google.com/search?q=%EC%A0%A4%EB%9D%BC%EB%96%BC%EB%A6%AC%EC%95%84+%EB%8F%84%EB%8F%84"},
     {"name":"젤라또로플","area":"서울","status":"candidate_only","evidence":"젤라또 전문점 후보","missing":["정확한 주소","2026년 현재 영업 근거","독립점 근거","직접 제조 공식 문구","공식 채널"],"source_url":"https://www.google.com/search?q=%EC%A0%A4%EB%9D%BC%EB%98%90%EB%A1%9C%ED%94%8C"},
     {"name":"아이스걸크림보이","area":"서울","status":"candidate_only","evidence":"독립 아이스크림·젤라또 매장 후보","missing":["2026년 현재 영업 근거","젤라또 직접 제조 근거","공식 채널"],"source_url":"https://www.google.com/search?q=%EC%95%84%EC%9D%B4%EC%8A%A4%EA%B1%B8%ED%81%AC%EB%A6%BC%EB%B3%B4%EC%9D%B4"},
-    {"name":"글라시에 홍","area":"서울","status":"candidate_only","evidence":"수제 아이스크림·젤라또 계열 전문점 후보","missing":["2026년 현재 영업 근거","젤라또 판매 및 직접 제조 공식 근거","공식 채널"],"source_url":"https://www.google.com/search?q=%EA%B8%80%EB%9D%BC%EC%8B%9C%EC%97%90+%ED%99%8D"}
+    {"name":"글라시에 홍","area":"서울","status":"candidate_only","evidence":"수제 아이스크림·젤라또 계열 전문점 후보","missing":["2026년 현재 영업 근거","젤라또 판매 및 직접 제조 공식 근거","공식 채널"],"source_url":"https://www.google.com/search?q=%EA%B8%80%EB%9D%BC%EC%8B%9C%EC%97%90+%ED%99%8D"},
+    {"name":"라또래요","area":"강원 속초·양양권","status":"candidate_only","evidence":"강원 지역 농산물인 감자를 사용한 감자·후추 젤라또를 자체 개발한 매장으로 2018년 기사 및 국가별 아이스크림 자료에 소개","missing":["2026년 현재 영업 공식 근거","정확한 현 매장 주소","공식 채널","독립 브랜드 현재 구조"],"source_url":"https://en.wikipedia.org/wiki/List_of_ice_cream_varieties_by_country"}
   ],
   "search_log": [
     {
@@ -62,11 +63,17 @@
       "queries": ["젠제로·녹기전에·코타티·젤라떼리아 도도 공식 인스타그램", "\"수제 젤라또\" 서울·부산·대구·제주 매장"],
       "result": "상호명 검색은 무관한 학술 자료만 반환했고 지역별 정확구문 검색은 결과가 전혀 없어 신규 검증 0곳",
       "next_action": "검색엔진 기반 반복을 중단하고 Google Places 원천 파일의 다른 지역 데이터 또는 공식 채널 URL이 이미 포함된 자료를 확보해 후보 풀을 확장"
+    },
+    {
+      "date": "2026-07-15",
+      "queries": ["Korea handmade gelato shop Seoul", "Busan handmade gelato shop Korea", "Jeju handmade gelato shop Korea", "라또래요 속초 2026 영업"],
+      "result": "영문 검색에서도 로컬 매장 정보가 거의 노출되지 않았으나, 감자 젤라또를 자체 개발한 강원권 후보 라또래요를 신규 후보로 확보. 현재 영업 여부와 공식 채널은 미확인",
+      "next_action": "공식 지도·SNS URL을 직접 확보할 수 있는 데이터 원천을 우선 탐색하고, 라또래요의 최신 운영 흔적을 교차 검증"
     }
   ],
   "notes": [
     "검증 요건을 모두 충족하기 전에는 verified에 넣지 않는다.",
-    "현재 verified 1곳, 미검증 후보 10곳이다.",
+    "현재 verified 1곳, 미검증 후보 11곳이다.",
     "100곳 도달 전에는 사용자에게 알리지 않는다."
   ]
 }
