@@ -1,0 +1,32 @@
+{
+  "date": "2026-07-16",
+  "status": "in_progress",
+  "verified_total": 1,
+  "new_verified": 0,
+  "research_actions": [
+    "기존 진행 파일과 최근 조사 로그를 확인함",
+    "송리단길 Google Places 원천 JSON을 재검수함",
+    "젠제로·당도·바버&젤라또의 공식 채널 및 직접 제조 문구를 검색함"
+  ],
+  "candidate_updates": [
+    {
+      "name": "바버&젤라또",
+      "area": "서울 성동구 성수동1가",
+      "address": "서울특별시 성동구 성수동1가 656-1053 지하1층",
+      "operating_evidence": "2026-04-12 Google Places 원천 데이터에서 아이스크림 가게로 수집되고 최근 7~12개월 리뷰 및 지도 URL 확인",
+      "gelato_evidence": "상호명과 리뷰에서 젤라또 판매점으로 확인",
+      "official_channel": null,
+      "source_urls": [
+        "https://maps.google.com/?cid=976181658457681095",
+        "https://github.com/hyeonsang010716/seoul-hotspot-data"
+      ],
+      "missing": [
+        "현재 영업을 직접 확인할 공식 채널",
+        "매장 직접 제조·수제 공식 문구",
+        "독립 브랜드 구조의 공식 근거"
+      ]
+    }
+  ],
+  "finding": "Google Places 원천 데이터만으로는 영업 중·젤라또 판매 여부까지는 확인 가능하지만, 수제·직접 제조와 독립점 근거를 충족시키지 못하므로 검증 목록에는 추가하지 않았다.",
+  "next_action": "공식 인스타그램·네이버 스마트플레이스·자사 홈페이지에 '매일 직접 제조', '매장에서 만든다', '젤라띠에레' 같은 문구가 있는 후보만 우선 검증한다."
+}
