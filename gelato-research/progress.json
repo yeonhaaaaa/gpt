@@ -69,6 +69,12 @@
       "queries": ["Korea handmade gelato shop Seoul", "Busan handmade gelato shop Korea", "Jeju handmade gelato shop Korea", "라또래요 속초 2026 영업"],
       "result": "영문 검색에서도 로컬 매장 정보가 거의 노출되지 않았으나, 감자 젤라또를 자체 개발한 강원권 후보 라또래요를 신규 후보로 확보. 현재 영업 여부와 공식 채널은 미확인",
       "next_action": "공식 지도·SNS URL을 직접 확보할 수 있는 데이터 원천을 우선 탐색하고, 라또래요의 최신 운영 흔적을 교차 검증"
+    },
+    {
+      "date": "2026-07-15",
+      "queries": ["지역별 수제 젤라또 전문점 일반 검색", "Naver Blog 정확구문 검색", "젠제로·녹기전에·코타티·젤라떼리아 도도 개별 검색", "Google Maps 젤라또 서울 직접 열기"],
+      "result": "한국 로컬 검색은 무관한 학술 결과만 반환했고 Naver Blog는 robots.txt로 차단됐으며 Google Maps 직접 열기도 안전 URL 제한으로 실패하여 신규 검증 0곳",
+      "next_action": "다음 실행에서는 저장소 내 Google Places 원천 파일의 경로를 찾아 전체 후보를 추출하거나, 공식 홈페이지·언론 기사처럼 검색 색인이 되는 고유 상호 후보를 먼저 확보"
     }
   ],
   "notes": [
