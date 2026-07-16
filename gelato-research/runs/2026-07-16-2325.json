@@ -1,0 +1,27 @@
+{
+  "date": "2026-07-16",
+  "status": "in_progress",
+  "verified_total": 1,
+  "new_verified": 0,
+  "new_candidates": [
+    {
+      "name": "바버&젤라또",
+      "area": "서울 성동구 성수동1가",
+      "address": "서울특별시 성동구 성수동1가 656-1053 지하1층",
+      "operating_evidence": "Google Places 원천 데이터가 2026-04-12 기준 아이스크림 가게로 수록하고 평점 4.6, 최근 8~11개월 리뷰와 결제 정보를 포함",
+      "gelato_evidence": "상호에 젤라또가 명시되고 최근 리뷰에서 젤라또 전문 메뉴를 반복 확인",
+      "official_channel": null,
+      "source_urls": [
+        "https://maps.google.com/?cid=976181658457681095",
+        "https://github.com/hyeonsang010716/seoul-hotspot-data"
+      ],
+      "missing": ["공식 웹사이트 또는 인스타그램 채널", "매장 직접 제조·수제 공식 문구", "2026년 현재 영업 상태를 명시한 business_status 필드"]
+    }
+  ],
+  "research_actions": [
+    "기존 진행 파일과 최근 자동 조사 커밋을 재검토함",
+    "서울숲/뚝섬 Google Places 원천 데이터에서 바버&젤라또의 주소·평점·최근 리뷰·지도 URL을 확인함",
+    "공식 채널과 직접 제조 문구가 없어 verified 승격은 보류함"
+  ],
+  "next_action": "지역별 18_ice_cream.json에서 website 필드가 있는 젤라또 후보를 우선 추출하고, 공식 채널의 최근 영업 게시물과 직접 제조 문구를 교차 검증한다."
+}
