@@ -1,0 +1,69 @@
+{
+  "updated_at": "2026-07-17T05:23:15+09:00",
+  "criteria": "독립 또는 소규모 단일 브랜드, 실제 오프라인 영업, 매장 직접 제조 근거 확인, 프랜차이즈/폐업/중복 제외",
+  "verified_count": 4,
+  "verified": [
+    {
+      "name": "닐젤라또",
+      "region": "서울 서대문구 연희동",
+      "address": "서울특별시 서대문구 연희맛로 17-7 1층 101호",
+      "current_operation_evidence": "다이닝코드 최근 크롤링에서 영업시간과 전화번호 확인, 2025년 말 방문 후기 및 2025년 소개 기사 확인",
+      "independent_handmade_evidence": "매장에서 처음부터 끝까지 직접 제조, 합성향료·색소 미사용, 와플콘도 매일 직접 제조한다고 소개됨",
+      "official_channel": "https://www.instagram.com/neil.gelato/",
+      "sources": [
+        "https://www.diningcode.com/profile.php?rid=4Xt90us73oX0",
+        "https://jammy.lge.co.kr/life/139",
+        "https://www.keyzard.cc/misikqueen/nb/223932816993"
+      ]
+    },
+    {
+      "name": "쏠레젤라또",
+      "region": "부산 부산진구 전포동",
+      "address": "부산광역시 부산진구 서전로 35 1층",
+      "current_operation_evidence": "다이닝코드 최근 크롤링에서 영업시간·전화번호 확인",
+      "independent_handmade_evidence": "대표가 혼자 매장에서 젤라또를 생산·판매하며, 젤라띠에레 경력과 계절별 원물 메뉴 운영이 명시됨",
+      "official_channel": "https://www.instagram.com/sole_gelato_official/",
+      "sources": [
+        "https://www.siksinhot.com/P/1371640",
+        "https://www.diningcode.com/profile.php?rid=G2JH21Jlk7dO",
+        "https://triple.guide/restaurants/c7e65aff-145b-4b99-93c0-c74a1e2cb870"
+      ]
+    },
+    {
+      "name": "젤라또 무까",
+      "region": "부산 부산진구 범전동",
+      "address": "부산광역시 부산진구 새싹로 86 1층",
+      "current_operation_evidence": "테이블링 최근 크롤링에서 요일별 영업시간·메뉴·주소 확인",
+      "independent_handmade_evidence": "칼피지아니 공식 교육 수료 젤라띠에레가 매일 매장에서 이탈리아 방식으로 직접 제조하며 합성향료·인공색소·보존료를 넣지 않는다고 명시됨",
+      "official_channel": null,
+      "sources": [
+        "https://www.siksinhot.com/P/1617631",
+        "https://www.tabling.co.kr/place/677cd4fc66de5f06988e6246",
+        "https://www.diningcode.com/profile.php?rid=5gBKxGhk99ge"
+      ]
+    },
+    {
+      "name": "제젤라또",
+      "region": "대구 서구 중리동",
+      "address": "대구광역시 서구 당산로47길 51-4 1층",
+      "current_operation_evidence": "다이닝코드 최근 크롤링에서 영업시간·전화번호 확인",
+      "independent_handmade_evidence": "업종 및 소개에서 수제아이스크림·젤라또 전문점으로 확인되나 직접 제조 문구는 후속 공식채널 검증 필요",
+      "official_channel": null,
+      "sources": [
+        "https://www.diningcode.com/profile.php?rid=P1xtmXW9ukqG",
+        "https://www.siksinhot.com/P/1650903"
+      ],
+      "verification_note": "독립점 가능성은 높으나 직접 제조 근거와 공식 채널을 다음 조사에서 보강할 것"
+    }
+  ],
+  "excluded": [
+    {
+      "name": "스쿱스젤라또",
+      "reason": "공식 홈페이지에서 2020년 프랜차이즈 사업 시작 및 전국 17개 매장 운영 확인"
+    },
+    {
+      "name": "젤라띠젤라띠",
+      "reason": "다점포 브랜드로 독립점 기준 제외"
+    }
+  ]
+}
