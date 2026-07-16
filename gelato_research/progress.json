@@ -1,6 +1,7 @@
 {
   "target": 100,
-  "verified_count": 1,
+  "verified_count": 2,
+  "candidate_count": 2,
   "updated_at": "2026-07-17",
   "criteria": {
     "include": ["actual offline store", "currently operating", "independent or small local brand", "gelato specialist or in-house production evidence"],
@@ -8,22 +9,74 @@
   },
   "verified": [
     {
+      "name": "뚜오이",
+      "region": "부산 부산진구 전포동",
+      "address": "부산광역시 부산진구 전포대로210번길 3 1층",
+      "operating_evidence": "DiningCode listing crawled in 2026 shows current weekly opening hours (12:00-23:00/23:50), phone number, active menu and recent March visitor posts.",
+      "independent_handmade_evidence": "Recent visitor content explicitly describes it as a handmade gelato specialty shop making gelato fresh every day; a store-specific Instagram account publishes daily flavor lineups.",
+      "official_channel": "https://www.instagram.com/tuoi_gelato",
+      "source_urls": [
+        "https://www.diningcode.com/profile.php?rid=dcQQXEDL6XJl",
+        "https://www.instagram.com/tuoi_gelato"
+      ],
+      "confidence": "verified"
+    },
+    {
+      "name": "젤라송 부산송도점",
+      "region": "부산 서구 암남동",
+      "address": "부산광역시 서구 등대로 9 송도유림 스카이오션 더퍼스트 상가 102호",
+      "operating_evidence": "DiningCode listing crawled in 2026 shows the store operating with current hours and phone; AutoReserve also listed the shop as of 2026-07-16. The owner-managed Daangn profile was last updated 2025-04-17 and remains linked to an active Naver place.",
+      "independent_handmade_evidence": "Owner-managed business profile states that the store uses Italian methods and makes gelato directly in the shop every day with seasonal fruit, fresh milk and Italian ingredients.",
+      "official_channel": "https://naver.me/5A3eD1gk",
+      "source_urls": [
+        "https://www.daangn.com/kr/local-profile/%EC%A0%A4%EB%9D%BC%EC%86%A1-%EB%B6%80%EC%82%B0%EC%86%A1%EB%8F%84%EC%A0%90-p9jd5onxbe5f/",
+        "https://www.diningcode.com/profile.php?rid=MnDJhzfyRAwV",
+        "https://autoreserve.com/ko/kr/busan-songdo-beach/cafe",
+        "https://naver.me/5A3eD1gk"
+      ],
+      "confidence": "verified"
+    }
+  ],
+  "candidates": [
+    {
       "name": "바버&젤라또",
       "region": "서울 성동구 성수동1가",
       "address": "서울특별시 성동구 성수동1가 지하1층 656-1053",
-      "operating_evidence": "Google Places record collected 2026-04-12; user reviews within the prior 8-12 months; Maps listing active",
-      "independent_handmade_evidence": "Store name and category identify a dedicated gelato/ice-cream shop; independent-status and in-house production still require a second source before final inclusion",
+      "operating_evidence": "Google Places record collected 2026-04-12; user reviews within the prior 8-12 months; Maps listing active.",
+      "independent_handmade_evidence": "Dedicated gelato-shop category, but independent status and in-house production still require a second source.",
       "official_channel": null,
       "source_urls": [
         "https://maps.google.com/?cid=976181658457681095",
         "https://github.com/hyeonsang010716/seoul-hotspot-data/blob/6f3e7a6dc182fca84b48b8028be828a7a0dfd98f/data/%EC%84%9C%EC%9A%B8%EC%88%B2_%EB%9A%9D%EC%84%AC/18_ice_cream.json"
       ],
       "confidence": "candidate_pending_second_source"
+    },
+    {
+      "name": "진 앤 주노 젤라또",
+      "region": "대전 중구 태평동",
+      "address": "대전광역시 중구 태평로 140",
+      "operating_evidence": "A detailed 2024 local-news profile gives the address, hours, menu and owner, but a fresh 2026 operating source has not yet been found.",
+      "independent_handmade_evidence": "Local-news profile explicitly says it is non-franchise, directly produces gelato daily, and identifies the independent owner and production method.",
+      "official_channel": null,
+      "source_urls": [
+        "https://www.ccherald.kr/news/articleView.html?idxno=38110"
+      ],
+      "confidence": "candidate_pending_current_operation_source"
+    }
+  ],
+  "excluded_examples": [
+    {
+      "name": "스쿱스 젤라떼리아",
+      "reason": "Franchise brand with 17 stores and active franchise recruitment; excluded despite in-store handmade production."
+    },
+    {
+      "name": "에밀리아젤라또",
+      "reason": "Franchise/shop-in-shop supply model using imported finished gelato; excluded."
     }
   ],
   "notes": [
-    "The public Seoul hotspot dataset contains multiple ice-cream category files and will be used only for candidate discovery.",
-    "Each final row needs a second source confirming current operation plus independent/in-house gelato production.",
+    "Final count includes only rows with both current-operation evidence and independent/in-house-production evidence.",
+    "Public maps and dining directories are discovery/current-operation sources; final rows should preferably include an owner-managed or official channel.",
     "Do not notify the user until 100 fully verified rows are complete."
   ]
 }
