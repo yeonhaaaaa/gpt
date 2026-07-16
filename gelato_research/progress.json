@@ -1,0 +1,29 @@
+{
+  "target": 100,
+  "verified_count": 1,
+  "updated_at": "2026-07-17",
+  "criteria": {
+    "include": ["actual offline store", "currently operating", "independent or small local brand", "gelato specialist or in-house production evidence"],
+    "exclude": ["franchise", "closed", "duplicate branch", "ordinary cafe selling supplied gelato"]
+  },
+  "verified": [
+    {
+      "name": "바버&젤라또",
+      "region": "서울 성동구 성수동1가",
+      "address": "서울특별시 성동구 성수동1가 지하1층 656-1053",
+      "operating_evidence": "Google Places record collected 2026-04-12; user reviews within the prior 8-12 months; Maps listing active",
+      "independent_handmade_evidence": "Store name and category identify a dedicated gelato/ice-cream shop; independent-status and in-house production still require a second source before final inclusion",
+      "official_channel": null,
+      "source_urls": [
+        "https://maps.google.com/?cid=976181658457681095",
+        "https://github.com/hyeonsang010716/seoul-hotspot-data/blob/6f3e7a6dc182fca84b48b8028be828a7a0dfd98f/data/%EC%84%9C%EC%9A%B8%EC%88%B2_%EB%9A%9D%EC%84%AC/18_ice_cream.json"
+      ],
+      "confidence": "candidate_pending_second_source"
+    }
+  ],
+  "notes": [
+    "The public Seoul hotspot dataset contains multiple ice-cream category files and will be used only for candidate discovery.",
+    "Each final row needs a second source confirming current operation plus independent/in-house gelato production.",
+    "Do not notify the user until 100 fully verified rows are complete."
+  ]
+}
